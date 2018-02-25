@@ -1,0 +1,24 @@
+//
+//  ProjectPrefixHeader.pch
+//  Project
+//
+//  Created by Malcolmn Roberts on 2016/10/05.
+//  Copyright (c) 2016 Malcolmn Roberts. All rights reserved.
+//
+
+#ifndef Project_ProjectPrefixHeader_pch
+#define Project_ProjectPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "AppExtensions.h"
+#import "VariableManager.h"
+#import "UIViewController+BackgroundNavBar.h"
+#import "BaseNetworkCall.h"
+#import "MBProgressHUD.h"
+#import "vcWebview.h"
+
+#endif
